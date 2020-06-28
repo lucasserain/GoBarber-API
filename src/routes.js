@@ -6,4 +6,4 @@ const routes = new Router();
  return res.json({message:'Hello World'});
  });
 
-module.exports = routes;
+ export default routes;
